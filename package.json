@@ -1,48 +1,29 @@
 {
-  "name": "rxjs-angular-weather",
+  "name": "angular.dev",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "watch": "ng build --watch --configuration development"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~9.1.9",
-    "@angular/cdk": "~9.2.1",
-    "@angular/common": "~9.1.9",
-    "@angular/compiler": "~9.1.9",
-    "@angular/core": "~9.1.9",
-    "@angular/forms": "~9.1.9",
-    "@angular/material": "~9.2.1",
-    "@angular/platform-browser": "~9.1.9",
-    "@angular/platform-browser-dynamic": "~9.1.9",
-    "@angular/router": "~9.1.9",
-    "rxjs": "~6.5.4",
-    "tslib": "^1.10.0",
-    "zone.js": "~0.10.2"
+    "@angular/common": "^22.0.0-next",
+    "@angular/compiler": "^22.0.0-next",
+    "@angular/core": "^22.0.0-next",
+    "@angular/forms": "^22.0.0-next",
+    "@angular/platform-browser": "^22.0.0-next",
+    "@angular/router": "^22.0.0-next",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.16.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.901.7",
-    "@angular/cli": "~9.1.7",
-    "@angular/compiler-cli": "~9.1.9",
-    "@types/node": "^12.11.1",
-    "@types/jasmine": "~3.5.0",
-    "@types/jasminewd2": "~2.0.3",
-    "codelyzer": "^5.1.2",
-    "jasmine-core": "~3.5.0",
-    "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~5.0.0",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage-istanbul-reporter": "~2.1.0",
-    "karma-jasmine": "~3.0.1",
-    "karma-jasmine-html-reporter": "^1.4.2",
-    "protractor": "~7.0.0",
-    "ts-node": "~8.3.0",
-    "tslint": "~6.1.0",
-    "typescript": "~3.8.3"
+    "@angular/build": "^22.0.0-next",
+    "@angular/cli": "^22.0.0-next",
+    "@angular/compiler-cli": "^22.0.0-next",
+    "@types/node": "^16.11.35",
+    "typescript": "~6.0.3"
   }
 }
