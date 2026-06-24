@@ -51,3 +51,10 @@ jobs:
       
       - name: List Files in Distribution Directory
         run: ls -R ./dist
+
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          name: Dist_Angular
+          path: ./dist
